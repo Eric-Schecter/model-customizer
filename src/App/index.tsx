@@ -49,7 +49,7 @@ class World {
   }
   private initCamera = (aspect: number) => {
     const camera = new PerspectiveCamera(50, aspect, 0.1, 1000);
-    camera.position.set(-3, 3, -3);
+    camera.position.set(-1,1,-2);
     return camera;
   }
   private loadModel = (url: string) => {
